@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  font-family: monospace;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column; /* stack cards vertically */
+  gap: 0.5rem;  
+  max-width: 600px;
+  margin: 0 auto;
+            /* space between rows */
+}
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: #ccc;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: solid 3px black;
+  outline: 2px dashed red;
+
+  text-align: right;
+  font-family: monospace;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
